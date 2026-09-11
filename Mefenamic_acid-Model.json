@@ -2205,60 +2205,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|PO MD 500 mg loading / 250 mg every 6 h|Ponstan capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -2771,12 +2717,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|250 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -3093,12 +3033,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|500 mg SD|Ponstan capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
