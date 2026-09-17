@@ -2004,6 +2004,19 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -2053,6 +2066,19 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -2066,7 +2092,143 @@
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 8.0,
+              "Value": 3.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 3",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event2",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg",
+                  "ValueOrigin": {}
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 30.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0,
               "ValueOrigin": {
                 "Source": "Unknown"
               }
@@ -2314,97 +2476,17 @@
                 "Name": "Ponstan capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "snack (MEFA)",
+                "Key": "Event"
+              },
+              {
+                "Name": "breakfast",
+                "Key": "Event2"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 6.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 18.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 30.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 36.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 42.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "snack (MEFA)",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "breakfast",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
